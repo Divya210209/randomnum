@@ -19,8 +19,7 @@ def check_answer(guessed_num,answer,attempts):
 def game():
     #print(logo_art.logo)
     print("let me thick of a number between 1 to 50")
-    answer=random.randint(1,50)
-    print(answer)
+    answer=random.randint(1,5)
     level=input("choose level of difficulty...type 'easy' or 'hard': ")
     attempts=set_difficulty(level)
     guessed_number=0
